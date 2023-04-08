@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <H1>Reproduzindo Áudios</H1>
+    <p>Vamos aprender a reproduzir áudios em HTML</p>
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao suporta o áudio.</p>
+        <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo.</a>
+     </audio>
+
+    <h1>Reproduzindo Vídeos Com HTML5</h1>
+    <P>Este vídeo está hospedado no meu próprio servidor.</P>
+     <video controls width="400" autoplay loop>
+        <source src="midia/pixels-video.mp4" type="video/mp4">
+    </video>
+    <p>Dica: Coloque o vídeo em vários formatos para que caso um deles não seja compatível com o navegador do cliente ele carregue em outro formato.</p>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1H-vSHVOxoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+
+
+    
+</body>
+</html>

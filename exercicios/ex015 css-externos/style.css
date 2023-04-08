@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+
+}
+h1{
+    background-color: lightcyan;
+    height: 51px;
+    width: 50%;
+    text-align: center;
+    
+    
+}
+.link1{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    height: 25%;
+    width: 30%;
+    background-color: green;
+    text-align: center;
+}
